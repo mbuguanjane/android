@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "923325749663",
+    "firebase_url": "https://messagedemo-4610e.firebaseio.com",
+    "project_id": "messagedemo-4610e",
+    "storage_bucket": "messagedemo-4610e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923325749663:android:6b8f7412ae6c6ef5d505aa",
+        "android_client_info": {
+          "package_name": "com.daimajia.fcmmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923325749663-dad0ne8edntmj6aarkvir1burapdpg1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daimajia.fcmmessaging",
+            "certificate_hash": "0638c2488b8fa150bd5b6ba3f848afd875857d02"
+          }
+        },
+        {
+          "client_id": "923325749663-t0vfk7egu0hd13c2fpdn57emc4s2v8a8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daimajia.fcmmessaging",
+            "certificate_hash": "0183a3d71709403466177324ec3140e55ba0e16c"
+          }
+        },
+        {
+          "client_id": "923325749663-d95n5meujbb4sa0ft7v98oqg5b9re40g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmYquXoys4NoN_yMqruMhHCP7XC1ax_Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923325749663-d95n5meujbb4sa0ft7v98oqg5b9re40g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923325749663:android:446fc30816d20edbd505aa",
+        "android_client_info": {
+          "package_name": "com.example.cartracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923325749663-4hmplo85petkog6u123tsesa99g09914.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cartracker",
+            "certificate_hash": "0638c2488b8fa150bd5b6ba3f848afd875857d02"
+          }
+        },
+        {
+          "client_id": "923325749663-d95n5meujbb4sa0ft7v98oqg5b9re40g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmYquXoys4NoN_yMqruMhHCP7XC1ax_Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923325749663-d95n5meujbb4sa0ft7v98oqg5b9re40g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923325749663:android:8adfb7db97666318d505aa",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923325749663-6cgv8j1ht98nuefad93m0bsjngfer9ig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "3e1dffa04e062c026232816aa500dfeff371b3fc"
+          }
+        },
+        {
+          "client_id": "923325749663-d95n5meujbb4sa0ft7v98oqg5b9re40g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmYquXoys4NoN_yMqruMhHCP7XC1ax_Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923325749663-d95n5meujbb4sa0ft7v98oqg5b9re40g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_margin="20dp">
+          <com.rengwuxian.materialedittext.MaterialEditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editDate"
+              android:focusable="false"
+              android:textColorHint="@color/colorPrimary"
+              android:textColor="#ffff"
+              android:textSize="25sp"
+              android:inputType="date"
+              android:hint="Date"
+              app:met_floatingLabel="highlight"
+              app:met_baseColor="@color/colorPrimary"
+              app:met_primaryColor="@color/colorPrimary"
+              app:met_singleLineEllipsis="true"
+              />
+          <Spinner
+              android:id="@+id/editTime"
+              android:layout_width="match_parent"
+              android:layout_margin="20dp"
+              android:padding="10dp"
+              android:textSize="25sp"
+              android:layout_height="wrap_content"/>
+          <Spinner
+              android:id="@+id/editPeople"
+              android:layout_margin="20dp"
+              android:padding="10dp"
+              android:layout_width="match_parent"
+              android:textSize="25sp"
+              android:layout_height="wrap_content"/>
+          <Spinner
+              android:id="@+id/Spinner01"
+              android:layout_margin="20dp"
+              android:padding="10dp"
+              android:textSize="25sp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:weightSum="2">
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+</androidx.cardview.widget.CardView>

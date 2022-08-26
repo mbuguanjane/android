@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "781073793078",
+    "firebase_url": "https://eat-it-68ba7-default-rtdb.firebaseio.com",
+    "project_id": "eat-it-68ba7",
+    "storage_bucket": "eat-it-68ba7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781073793078:android:6cb3a6a874fc5104555897",
+        "android_client_info": {
+          "package_name": "com.restrorant.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781073793078-pk3cl1ai9qpr8qdu89g27gg5f8q3lseq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_XcQZNiWw-mij_JpsoKwYTQxsK_YzrfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781073793078-pk3cl1ai9qpr8qdu89g27gg5f8q3lseq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

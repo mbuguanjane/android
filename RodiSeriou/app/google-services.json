@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "816640505681",
+    "firebase_url": "https://rodiseriou.firebaseio.com",
+    "project_id": "rodiseriou",
+    "storage_bucket": "rodiseriou.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816640505681:android:9b91dd0f30bb0fb3a60570",
+        "android_client_info": {
+          "package_name": "com.rodikenya.rodiseriou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816640505681-0g8kddahii60129l167k7rqtftf9kvtl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rodikenya.rodiseriou",
+            "certificate_hash": "0638c2488b8fa150bd5b6ba3f848afd875857d02"
+          }
+        },
+        {
+          "client_id": "816640505681-sghja8p43qcafv9r5bgrssl2b0ho4shn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rodikenya.rodiseriou",
+            "certificate_hash": "3e1dffa04e062c026232816aa500dfeff371b3fc"
+          }
+        },
+        {
+          "client_id": "816640505681-soeqp93v6ue1fu28ohreu589p5hjrd26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU6QzKNHOhMjpnU-Mi_RBUtg87tSE7d3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816640505681-soeqp93v6ue1fu28ohreu589p5hjrd26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

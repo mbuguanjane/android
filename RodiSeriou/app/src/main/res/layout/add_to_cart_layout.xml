@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#B8B1B1"
+    android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_margin="8dp"
+                    android:background="#ffffff"
+
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/prodimage"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Milk Tea"
+                        android:textStyle="bold"
+                        android:id="@+id/nameproduct"/>
+                        <TextView
+                            android:layout_weight="3"
+                            android:background="@drawable/pricebg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:gravity="center"
+                            android:textColor="#ffff"
+                            android:padding="2dp"
+                            android:text="$15"
+                            android:id="@+id/Price_value"/>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:background="#ffff"
+                        android:layout_height="wrap_content">
+                        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/countbutton"
+                            app:backGroundColor="#222121"
+                            android:layout_alignParentRight="true">
+                        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff"
+                android:textAlignment="center"
+                android:text="Product Benefit"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/comment"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/Description"
+              android:textSize="18sp"
+              android:text="uses unchecked or unsafe operations.
+Recompile with -Xlint:unchecked for details."
+              android:background="#ffff"
+              />
+
+
+</LinearLayout>

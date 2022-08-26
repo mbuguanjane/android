@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Restorant App</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="slogan">We value our customers because we are their servant</string>
+    <string name="title">Restrorant</string>
+</resources>

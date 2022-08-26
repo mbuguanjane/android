@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/rootLayout"
+    android:background="#AAA5A5"
+    android:layout_height="match_parent"
+    tools:context=".TrainingOrders">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/Toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/Toolbar"
+        android:layout_above="@+id/Bottom_navigation"
+        android:id="@+id/recycleTraining"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="?android:attr/windowBackground"
+        app:itemTextColor="#ffff"
+        android:background="@color/colorPrimary"
+        app:menu="@menu/show_order_bottom_menu"
+        android:id="@+id/Bottom_navigation"/>
+
+
+</RelativeLayout>

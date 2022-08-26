@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.restrorant.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ProfileDetails"></activity>
+        <activity android:name=".AddMenu" />
+        <activity android:name=".Menu" />
+        <activity android:name=".SuccessReservation" />
+        <activity android:name=".FailedActivity" />
+        <activity android:name=".SuccessActivity" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Verification" />
+        <activity android:name=".MpesaPayments" />
+        <activity android:name=".OrderDetails" />
+        <activity android:name=".ServerReservationStatus" />
+        <activity android:name=".ReservationStatus" />
+        <activity android:name=".ServerOrderStatus" />
+        <activity android:name=".AddRestorant" />
+        <activity android:name=".AdminPanel" />
+        <activity android:name=".Reservation" />
+        <activity android:name=".OrderStatus" />
+        <activity android:name=".Cart" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".SignIn" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

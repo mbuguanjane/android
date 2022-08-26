@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu tools:showIn="navigation_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+ <group android:checkableBehavior="single">
+
+     <item
+         android:id="@+id/Order"
+         android:title="Profile"
+         android:iconTint="@color/colorWhite"
+         android:icon="@drawable/ic_baseline_order"
+         />
+     <item
+         android:id="@+id/Reservation"
+         android:title="Reservation"
+         android:iconTint="@color/colorWhite"
+         android:icon="@drawable/ic_baseline_order"
+         />
+     <item
+         android:id="@+id/LogOut"
+         android:title="Log out"
+         android:iconTint="@color/colorWhite"
+         android:icon="@drawable/ic_baseline_logout"
+         />
+     <item
+         android:id="@+id/Admin"
+         android:title="Admin"
+         android:visible="false"
+         android:iconTint="@color/colorWhite"
+         android:icon="@drawable/ic_baseline_admin"
+         />
+ </group>
+</menu>

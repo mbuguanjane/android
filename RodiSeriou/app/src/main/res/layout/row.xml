@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear_layout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:id="@+id/Title"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:text="Title"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expandle_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Subtitle"
+                android:text="SubTitle"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Description"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffff"
+                android:text="Read More"
+                android:visibility="invisible"
+                android:layout_margin="10dp"
+                android:layout_below="@+id/Subtitle"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_below="@+id/Description"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/gmail"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/iconfinder_gmail_1220367"
+                    android:layout_margin="10dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/twitter"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/iconfinder_twitter_386736"
+                    android:layout_margin="10dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/youtube"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/iconfinder_youtube_317714"
+                    android:layout_margin="10dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/facebook"
+                    android:src="@drawable/iconfinder_square_facebook_"
+                    android:layout_margin="10dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/location"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_location_on_24"
+                    android:layout_margin="10dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/contact"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_phone_in_talk_24"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
